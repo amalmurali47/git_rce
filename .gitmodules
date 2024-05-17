@@ -1,0 +1,3 @@
+[submodule "x/y"]
+	path = A/modules/x
+	url = /home/amal/Desktop/git-rce/demo/hook

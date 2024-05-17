@@ -1,3 +1,3 @@
 [submodule "x/y"]
 	path = A/modules/x
-	url = git@github.com:amalmurali47/hook.git
+	url = git@github.com-hook:amalmurali47/hook.git

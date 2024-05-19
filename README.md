@@ -20,6 +20,9 @@ For a detailed explanation of how this exploit was reversed, see the blog post: 
 - [`amalmurali47/hook`](https://github.com/amalmurali47/hook): The submodule repository containing the malicious hook.
 
 ## Reproduction
+
+⚠️ Warning: Do not run this PoC on systems you do not own or do not have explicit permission to use. Unauthorized testing could result in unintended consequences.
+
 ```bash
 git clone --recursive git@github.com:amalmurali47/git_rce.git
 ```

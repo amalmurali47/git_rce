@@ -2,6 +2,8 @@
 
 This repository contains a PoC for exploiting CVE-2024-32002, a vulnerability in Git that allows RCE during a `git clone` operation. By crafting repositories with submodules in a specific way, an attacker can exploit symlink handling on case-insensitive filesystems to write files into the `.git/` directory, leading to the execution of malicious hooks.
 
+**Note:** This PoC will only work in Windows or Mac systems.
+
 ## Blog Post
 For a detailed explanation of how this exploit was reversed, see the blog post: <https://amalmurali.me/posts/git-rce>.
 

@@ -2,7 +2,7 @@
 
 This repository contains a PoC for exploiting CVE-2024-32002, a vulnerability in Git that allows RCE during a `git clone` operation. By crafting repositories with submodules in a specific way, an attacker can exploit symlink handling on case-insensitive filesystems to write files into the `.git/` directory, leading to the execution of malicious hooks.
 
-### Blog Post
+## Blog Post
 For a detailed explanation of how this exploit was reversed, see the blog post: <https://amalmurali.me/posts/git-rce>.
 
 
@@ -17,14 +17,14 @@ For a detailed explanation of how this exploit was reversed, see the blog post: 
 - `git_rce/` (this repository): The main repository containing the submodule.
 - [`amalmurali47/hook`](https://github.com/amalmurali47/hook): The submodule repository containing the malicious hook.
 
-### Reproduction
+## Reproduction
 ```bash
 git clone --recursive git@github.com:amalmurali47/git_rce.git
 ```
 
 Note: On Windows, you may need to run the shell as administrator for this to work.
 
-### Exploit Script
+## Exploit Script
 
 The script used to create the PoC is included in this repository as `create_poc.sh`. The instructions for setting up the PoC on a GitHub repo are included in the blog post.
 

@@ -26,6 +26,15 @@ git clone --recursive git@github.com:amalmurali47/git_rce.git
 
 Note: On Windows, you may need to run the shell as administrator for this to work.
 
+### PoC execution on Windows
+![](https://github.com/amalmurali47/blog/assets/3582096/e41d8e2e-81b6-4e68-a9e6-4489450c918d)
+
+
+### PoC execution on Mac
+
+![](https://github.com/amalmurali47/blog/assets/3582096/08d5c16c-c916-4d32-b49e-1ab0a0f0e789)
+
+
 ## Exploit Script
 
 The script used to create the PoC is included in this repository as `create_poc.sh`. The instructions for setting up the PoC on a GitHub repo are included in the blog post.
